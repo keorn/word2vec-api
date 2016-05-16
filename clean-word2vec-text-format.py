@@ -44,8 +44,8 @@ def read_utf8_char_and_decode(source):
 source = open(SOURCE,mode='r')
 tmp = codecs.open(TMP,mode='w',encoding='utf8')
 line = source.readline()
-vsize, nbdim = line.split()
-vsize = int(vsize)
+#vsize, nbdim = line.split()
+vsize = 2196017 # for Glove
 print vsize
 count = 0
 bad = 0
